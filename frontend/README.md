@@ -1,26 +1,35 @@
-# frontend
+# qrPay - Frontend Module
+App to support transactional QR codes for secure Payments
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Frontend Module Tech Stack
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- vueJS 2.5.x
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Installation  
+        
+- Build front-end environment
 
-### Run your unit tests
-```
-npm run test:unit
-```
+        cd qrPay/frontend
+        npm install
+
+### Usage
+
+- Run Front-end Web Page - Compiles and hot-reloads for development
+
+        cd qrPay/frontend
+        npm run serve
+
+- Compiles and minifies for production
+
+        npm run build
+
+
+- Lints and fixes files
+
+        npm run lint
+
+
+- Run your unit tests
+
+        npm run test:unit
