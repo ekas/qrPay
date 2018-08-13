@@ -28,13 +28,13 @@ App to support transactional QR codes for secure Payments
 
 - Build back-end environment
 
-        cd qrPay
+        cd qrPay/backend
         mvn eclipse:eclipse (load build tools for Eclipse)
         mvn clean install
 
 - DB Setup for back-end environment
 
-        cd qrPay/src/main/resources/application.properties
+        cd qrPay/backend/src/main/resources/application.properties
         spring.datasource.url=jdbc:mysql://localhost/<dbname>
         spring.datasource.username=<dbusername>
         spring.datasource.password=<dbpassword>
@@ -44,7 +44,7 @@ App to support transactional QR codes for secure Payments
 
 - Run back-end server
 
-        cd qrPay
+        cd qrPay/backend
         mvn spring-boot:run
 
 - Run Front-end Web Page
